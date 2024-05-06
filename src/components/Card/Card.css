@@ -1,0 +1,48 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    background-color: transparent;
+    border: none;
+    color: #444;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .action-button:hover {
+    color: #000;
+  }
+  
+  .like:before {
+    content: "\2661";
+    margin-right: 5px;
+  }
+  
+  .comment:before {
+    content: "\1F4AC";
+    margin-right: 5px;
+  }
+  
+  .send:before {
+    content: "\27A1";
+    margin-right: 5px;
+  }
+  

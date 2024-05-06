@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
  import "./useState.css"
 
 
@@ -8,6 +8,14 @@ import React, { useState } from "react";
     const [counter2, setCounter2] = useState(0);
     const [counter3, setCounter3] = useState(0);
   
+useEffect( () => {
+  console.log("Botão iniciado")
+})
+
+useEffect( () => {
+  console.log("Botão único")
+}, [])
+
     return (
       <div className="container">
         <h1>Testes de botões</h1>

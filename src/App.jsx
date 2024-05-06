@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home/home'
 import Counter from './components/useState/useState'
+import Card from './components/Card'
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
 
   return (
     <>
+    <Card />
       {/* <Home /> */}
-      <Counter/>
+      {/* <Counter/> */}
     </>
   )
 }
