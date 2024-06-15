@@ -1,0 +1,23 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+
+
+.body{
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 500px;
+    max-width: 100%;
+}
